@@ -1,0 +1,21 @@
+@mixin container {
+  width: 1090px;
+  margin: 0 auto;
+}
+@mixin button2 {
+  height: 60px;
+  padding: 16px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4f9cf9;
+  color: #fff;
+  border: none;
+
+  /* Paragraph/P2/Medium */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 127.778% */
+  letter-spacing: -0.36px;
+}
