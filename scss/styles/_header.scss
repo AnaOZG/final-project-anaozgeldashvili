@@ -10,12 +10,12 @@ header {
     justify-content: space-between;
     align-items: center;
     .headerdiv {
-      width: 900px;
+      width: 988.5px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       ul {
-        width: 551px;
+        width: 551.5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -29,6 +29,10 @@ header {
         }
       }
       .buttondiv {
+        width: 377px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         .button1 {
           height: 60px;
           padding: 16px 40px;

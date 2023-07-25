@@ -1,0 +1,7 @@
+.s-2 {
+  background: $scolor3;
+  padding: 140px 220px;
+  .container {
+    @include container;
+  }
+}

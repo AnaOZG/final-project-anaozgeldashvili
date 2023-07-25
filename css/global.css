@@ -149,20 +149,20 @@ header {
   align-items: center;
 }
 header .container {
-  width: 1090px;
+  width: 1480px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 header .container .headerdiv {
-  width: 900px;
+  width: 988.5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 header .container .headerdiv ul {
-  width: 551px;
+  width: 551.5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -174,6 +174,12 @@ header .container .headerdiv ul li {
   font-style: normal;
   font-weight: 500;
   line-height: 23px;
+}
+header .container .headerdiv .buttondiv {
+  width: 377px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header .container .headerdiv .buttondiv .button1 {
   height: 60px;
@@ -209,43 +215,70 @@ header .container .headerdiv .buttondiv .button2 {
 
 .s-1 {
   background: #043873;
-  padding: 100px 32px;
+  padding: 140px 220px;
 }
 .s-1 .container {
-  width: 1090px;
+  width: 1480px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .s-1 .container .s-1-div {
   display: flex;
+  width: 656px;
   flex-direction: column;
   align-items: flex-start;
   gap: 3.325px;
+  padding-right: 25px;
 }
 .s-1 .container .s-1-div h1 {
   color: #fff;
-  /* Header/H2 */
   font-family: Inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -1.28px;
+  margin-bottom: 24px;
 }
 .s-1 .container .s-1-div p {
   color: #fff;
-  /* Paragraph/P2/Regular */
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+}
+.s-1 .container .s-1-div button {
+  height: 60px;
+  padding: 16px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4f9cf9;
+  color: #fff;
+  border: none;
+  /* Paragraph/P2/Medium */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 127.778% */
   letter-spacing: -0.36px;
 }
 .s-1 .container .imgcont {
-  width: 685px;
-  height: 456.39px;
+  width: 824px;
+  height: 549px;
   display: flex;
   background: var(--primary-100, #c4defd);
+}
+
+.s-2 {
+  background: #ffffff;
+  padding: 140px 220px;
+}
+.s-2 .container {
+  width: 1480px;
+  margin: 0 auto;
 }/*# sourceMappingURL=global.css.map */
