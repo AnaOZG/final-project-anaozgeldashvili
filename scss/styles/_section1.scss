@@ -23,10 +23,7 @@
       }
     }
     .imgcont {
-      width: 824px;
-      height: 549px;
-      display: flex;
-      background: var(--primary-100, #c4defd);
+      @include imgcont;
     }
   }
 }

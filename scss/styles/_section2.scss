@@ -3,5 +3,24 @@
   padding: 140px 220px;
   .container {
     @include container;
+    display: flex;
+    justify-content: center;
+    .s-2-div {
+      width: 672px;
+      h1 {
+        @include s-div-h1-2;
+      }
+      p {
+        @include s-div-p-2;
+      }
+      button {
+        @include button2;
+      }
+    }
+    .imgcont {
+      @include imgcont;
+      width: 748px;
+      height: 547px;
+    }
   }
 }

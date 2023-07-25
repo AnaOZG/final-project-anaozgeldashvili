@@ -204,12 +204,11 @@ header .container .headerdiv .buttondiv .button2 {
   background: #4f9cf9;
   color: #fff;
   border: none;
-  /* Paragraph/P2/Medium */
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 23px; /* 127.778% */
+  line-height: 23px;
   letter-spacing: -0.36px;
 }
 
@@ -259,12 +258,11 @@ header .container .headerdiv .buttondiv .button2 {
   background: #4f9cf9;
   color: #fff;
   border: none;
-  /* Paragraph/P2/Medium */
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 23px; /* 127.778% */
+  line-height: 23px;
   letter-spacing: -0.36px;
 }
 .s-1 .container .imgcont {
@@ -281,4 +279,54 @@ header .container .headerdiv .buttondiv .button2 {
 .s-2 .container {
   width: 1480px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.s-2 .container .s-2-div {
+  width: 672px;
+}
+.s-2 .container .s-2-div h1 {
+  color: #212529;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  align-self: stretch;
+  margin-bottom: 24px;
+}
+.s-2 .container .s-2-div p {
+  color: #212529;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  align-self: stretch;
+  margin-bottom: 60px;
+}
+.s-2 .container .s-2-div button {
+  height: 60px;
+  padding: 16px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4f9cf9;
+  color: #fff;
+  border: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.36px;
+}
+.s-2 .container .imgcont {
+  width: 824px;
+  height: 549px;
+  display: flex;
+  background: var(--primary-100, #c4defd);
+  width: 748px;
+  height: 547px;
 }/*# sourceMappingURL=global.css.map */

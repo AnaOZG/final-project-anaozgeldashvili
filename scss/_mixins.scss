@@ -11,12 +11,11 @@
   color: #fff;
   border: none;
 
-  /* Paragraph/P2/Medium */
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 23px; /* 127.778% */
+  line-height: 23px;
   letter-spacing: -0.36px;
 }
 @mixin s-div-h1 {
@@ -38,4 +37,34 @@
   line-height: 30px;
   letter-spacing: -0.36px;
   margin-bottom: 60px;
+}
+@mixin s-div-h1-2 {
+  color: #212529;
+
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  align-self: stretch;
+  margin-bottom: 24px;
+}
+@mixin s-div-p-2 {
+  color: #212529;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  align-self: stretch;
+  margin-bottom: 60px;
+}
+@mixin imgcont {
+  width: 824px;
+  height: 549px;
+  display: flex;
+  background: var(--primary-100, #c4defd);
 }
