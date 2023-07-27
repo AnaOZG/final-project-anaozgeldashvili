@@ -1,11 +1,16 @@
-.s-2 {
+.s-4 {
   background: $scolor3;
   padding: 140px 220px;
   .container {
     @include container;
     display: flex;
     justify-content: space-between;
-    .s-2-div {
+    .imgcont {
+      @include imgcont;
+      width: 714px;
+      height: 532px;
+    }
+    .s-4-div {
       width: 672px;
       h1 {
         @include s-div-h1-2;
@@ -16,11 +21,6 @@
       button {
         @include button2;
       }
-    }
-    .imgcont {
-      @include imgcont;
-      width: 748px;
-      height: 547px;
     }
   }
 }

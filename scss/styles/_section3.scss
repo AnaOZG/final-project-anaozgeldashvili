@@ -1,11 +1,11 @@
-.s-1 {
+.s-3 {
   background: $color1;
   padding: 140px 220px;
   .container {
     @include container;
     display: flex;
     justify-content: space-between;
-    .s-1-div {
+    .s-3-div {
       display: flex;
       width: 656px;
       flex-direction: column;
@@ -24,10 +24,8 @@
     }
     .imgcont {
       @include imgcont;
-      @media (max-width: 1440px) {
-        width: 685px;
-        height: 456px;
-      }
+      width: 685px;
+      height: 479px;
     }
   }
 }

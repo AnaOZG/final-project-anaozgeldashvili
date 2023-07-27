@@ -19,7 +19,7 @@
   letter-spacing: -0.36px;
 }
 @mixin s-div-h1 {
-  color: #fff;
+  color: $scolor3;
   font-family: Inter;
   font-size: 64px;
   font-style: normal;
@@ -29,7 +29,7 @@
   margin-bottom: 24px;
 }
 @mixin s-div-p {
-  color: #fff;
+  color: $scolor3;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -39,7 +39,7 @@
   margin-bottom: 60px;
 }
 @mixin s-div-h1-2 {
-  color: #212529;
+  color: $scolor4;
 
   font-family: Inter;
   font-size: 72px;
@@ -51,7 +51,7 @@
   margin-bottom: 24px;
 }
 @mixin s-div-p-2 {
-  color: #212529;
+  color: $scolor4;
 
   font-family: Inter;
   font-size: 18px;
