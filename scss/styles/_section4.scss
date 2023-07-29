@@ -11,7 +11,11 @@
       height: 532px;
     }
     .s-4-div {
-      width: 672px;
+      width: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: baseline;
       h1 {
         @include s-div-h1-2;
       }

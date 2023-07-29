@@ -142,11 +142,13 @@ a {
 }
 
 header {
+  width: 100%;
   display: flex;
   padding: 16px 32px;
   background: #043873;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 header .container {
   width: 1480px;
@@ -170,10 +172,10 @@ header .container .headerdiv ul {
   justify-content: space-between;
   align-items: center;
 }
-header .container .headerdiv ul li {
+header .container .headerdiv ul a {
   color: #fff;
   font-family: DM Sans;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 23px;
@@ -216,7 +218,7 @@ header .container .headerdiv .buttondiv .button2 {
 }
 
 .s-1 {
-  background: #043873;
+  background-color: #043873;
   padding: 140px 220px;
 }
 .s-1 .container {
@@ -242,11 +244,12 @@ header .container .headerdiv .buttondiv .button2 {
   line-height: normal;
   letter-spacing: -1.28px;
   margin-bottom: 24px;
+  width: 920px;
 }
 .s-1 .container .s-1-div p {
   color: #ffffff;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -269,10 +272,8 @@ header .container .headerdiv .buttondiv .button2 {
   letter-spacing: -0.36px;
 }
 .s-1 .container .imgcont {
-  width: 824px;
-  height: 549px;
-  display: flex;
-  background: var(--primary-100, #c4defd);
+  width: 400px;
+  height: 400px;
 }
 @media (max-width: 1440px) {
   .s-1 .container .imgcont {
@@ -292,12 +293,16 @@ header .container .headerdiv .buttondiv .button2 {
   justify-content: space-between;
 }
 .s-2 .container .s-2-div {
-  width: 672px;
+  width: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .s-2 .container .s-2-div h1 {
   color: #212529;
   font-family: Inter;
-  font-size: 72px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -308,7 +313,7 @@ header .container .headerdiv .buttondiv .button2 {
 .s-2 .container .s-2-div p {
   color: #212529;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -333,11 +338,10 @@ header .container .headerdiv .buttondiv .button2 {
 }
 .s-2 .container .imgcont {
   width: 824px;
-  height: 549px;
   display: flex;
   background: var(--primary-100, #c4defd);
+  border-radius: 12px;
   width: 748px;
-  height: 547px;
 }
 
 .s-3 {
@@ -352,9 +356,10 @@ header .container .headerdiv .buttondiv .button2 {
 }
 .s-3 .container .s-3-div {
   display: flex;
-  width: 656px;
+  width: 800px;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   gap: 3.325px;
   padding-right: 25px;
 }
@@ -371,7 +376,7 @@ header .container .headerdiv .buttondiv .button2 {
 .s-3 .container .s-3-div p {
   color: #ffffff;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -395,11 +400,10 @@ header .container .headerdiv .buttondiv .button2 {
 }
 .s-3 .container .imgcont {
   width: 824px;
-  height: 549px;
   display: flex;
   background: var(--primary-100, #c4defd);
-  width: 685px;
-  height: 479px;
+  border-radius: 12px;
+  width: 724px;
 }
 
 .s-4 {
@@ -414,19 +418,23 @@ header .container .headerdiv .buttondiv .button2 {
 }
 .s-4 .container .imgcont {
   width: 824px;
-  height: 549px;
   display: flex;
   background: var(--primary-100, #c4defd);
+  border-radius: 12px;
   width: 714px;
   height: 532px;
 }
 .s-4 .container .s-4-div {
-  width: 672px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
 }
 .s-4 .container .s-4-div h1 {
   color: #212529;
   font-family: Inter;
-  font-size: 72px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -437,7 +445,7 @@ header .container .headerdiv .buttondiv .button2 {
 .s-4 .container .s-4-div p {
   color: #212529;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -474,7 +482,7 @@ header .container .headerdiv .buttondiv .button2 {
 .s-5 .container .hp h5 {
   color: #212529;
   font-family: Inter;
-  font-size: 72px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -486,7 +494,7 @@ header .container .headerdiv .buttondiv .button2 {
 .s-5 .container .hp p {
   color: #212529;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -496,23 +504,41 @@ header .container .headerdiv .buttondiv .button2 {
   width: 979px;
   text-align: center;
 }
-.s-5 .container .carddiv .card1 .mydiv {
+.s-5 .container .cardsdiv {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
-.s-5 .container .carddiv .card1 .mydiv h2 {
-  color: #212529;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 36px;
+.s-5 .container .cardsdiv .card1,
+.s-5 .container .cardsdiv .card2,
+.s-5 .container .cardsdiv .card3,
+.s-5 .container .cardsdiv .card4,
+.s-5 .container .cardsdiv .card5,
+.s-5 .container .cardsdiv .card6 {
+  padding: 40px 44px;
+  border-radius: 10px;
+  border: 1px solid #ffe492;
+  background: #fff;
+  width: 472px;
 }
-.s-5 .container .carddiv .card1 .mydiv h3 {
+.s-5 .container .cardsdiv .card1 img,
+.s-5 .container .cardsdiv .card2 img,
+.s-5 .container .cardsdiv .card3 img,
+.s-5 .container .cardsdiv .card4 img,
+.s-5 .container .cardsdiv .card5 img,
+.s-5 .container .cardsdiv .card6 img {
+  width: 100%;
+}
+.s-5 .container .cardsdiv .card1 h6,
+.s-5 .container .cardsdiv .card2 h6,
+.s-5 .container .cardsdiv .card3 h6,
+.s-5 .container .cardsdiv .card4 h6,
+.s-5 .container .cardsdiv .card5 h6,
+.s-5 .container .cardsdiv .card6 h6 {
   color: #212529;
+  /* Header/H4 */
   font-family: Inter;
   font-size: 36px;
   font-style: normal;
@@ -520,22 +546,18 @@ header .container .headerdiv .buttondiv .button2 {
   line-height: normal;
   letter-spacing: -0.72px;
 }
-.s-5 .container .carddiv .card1 .mydiv h4 {
+.s-5 .container .cardsdiv .card1 p,
+.s-5 .container .cardsdiv .card2 p,
+.s-5 .container .cardsdiv .card3 p,
+.s-5 .container .cardsdiv .card4 p,
+.s-5 .container .cardsdiv .card5 p,
+.s-5 .container .cardsdiv .card6 p {
   color: #212529;
+  /* Paragraph/P3/Regular */
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 23px;
-  letter-spacing: -0.36px;
-}
-.s-5 .container .carddiv .card1 .mydiv2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 28px;
-  align-self: stretch;
-}
-.s-5 .container .carddiv .card1 .mydiv2 li i {
-  padding-right: 20px;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
 }/*# sourceMappingURL=global.css.map */

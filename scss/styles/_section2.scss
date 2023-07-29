@@ -6,7 +6,11 @@
     display: flex;
     justify-content: space-between;
     .s-2-div {
-      width: 672px;
+      width: 656px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
       h1 {
         @include s-div-h1-2;
       }
@@ -20,7 +24,6 @@
     .imgcont {
       @include imgcont;
       width: 748px;
-      height: 547px;
     }
   }
 }

@@ -1,9 +1,11 @@
 header {
+  width: 100%;
   display: flex;
   padding: 16px 32px;
   background: $color1;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   .container {
     @include container;
     display: flex;
@@ -22,10 +24,10 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        li {
+        a {
           color: #fff;
           font-family: DM Sans;
-          font-size: 18px;
+          font-size: 20px;
           font-style: normal;
           font-weight: 500;
           line-height: 23px;
