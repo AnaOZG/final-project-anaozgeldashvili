@@ -10,6 +10,9 @@
   background: #4f9cf9;
   color: #fff;
   border: none;
+  &:hover {
+    background-color: #96c3fa;
+  }
 
   font-family: Inter;
   font-size: 18px;
@@ -71,32 +74,114 @@
 @mixin carddiv {
   padding: 40px 44px;
   border-radius: 10px;
-  border: 1px solid #ffe492;
-  background: #fff;
+  background: #043873;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
   width: 472px;
   img {
     width: 100%;
+    height: 270px;
+    border-radius: 10px;
   }
   h6 {
-    color: #212529;
+    color: #ffe492;
 
-    /* Header/H4 */
     font-family: Inter;
-    font-size: 36px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.72px;
   }
   p {
-    color: #212529;
+    color: #fff;
 
-    /* Paragraph/P3/Regular */
     font-family: Inter;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 125% */
-    letter-spacing: -0.32px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.36px;
+  }
+}
+@mixin students {
+  width: 471px;
+  height: 498px;
+  display: flex;
+  padding: 60px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  flex: 1 0 0;
+  border-radius: 10px;
+  background: #4f9cf9;
+  .comment {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 40px;
+    i {
+      font-size: 86px;
+    }
+    .i2 {
+      display: none;
+    }
+    p {
+      color: #fff;
+
+      /* Paragraph/P2/Regular */
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      letter-spacing: -0.36px;
+    }
+  }
+  .student {
+    display: flex;
+    width: 383px;
+    align-items: flex-end;
+    gap: 42px;
+    img {
+      width: 95px;
+      height: 95px;
+      flex-shrink: 0;
+      border-radius: 95px;
+    }
+    .studentname {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      flex: 1 0 0;
+      align-self: stretch;
+      h4 {
+        color: #043873;
+
+        /* Paragraph/P1/Semibold */
+        font-family: Inter;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 150% */
+        align-self: stretch;
+      }
+      p {
+        color: #fff;
+
+        /* Paragraph/P3/Regular */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 125% */
+        letter-spacing: -0.32px;
+        align-self: stretch;
+      }
+    }
   }
 }

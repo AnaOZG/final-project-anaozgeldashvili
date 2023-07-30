@@ -53,6 +53,9 @@ header {
           line-height: 23px; /* 127.778% */
           letter-spacing: -0.36px;
           border: none;
+          &:hover {
+            background-color: #fffbe4;
+          }
         }
         .button2 {
           @include button2;

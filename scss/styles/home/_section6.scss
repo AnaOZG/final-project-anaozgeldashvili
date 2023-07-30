@@ -1,0 +1,53 @@
+.s-6 {
+  margin-bottom: 152px;
+  .container {
+    @include container;
+    h3 {
+      color: #212529;
+      text-align: center;
+      font-family: Inter;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 84px; /* 120% */
+      align-self: stretch;
+      margin-bottom: 60px;
+    }
+    .cardwrapper {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      align-self: stretch;
+      .card1,
+      .card2,
+      .card3 {
+        @include students;
+        &:hover {
+          border-radius: 10px;
+          background: #fff;
+          box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+          .comment {
+            border-bottom: 1px solid #212529;
+            p {
+              color: #212529;
+            }
+            i {
+              display: none;
+            }
+            .i2 {
+              display: block;
+            }
+          }
+          .studentname {
+            h4 {
+              color: #212529;
+            }
+            p {
+              color: #212529;
+            }
+          }
+        }
+      }
+    }
+  }
+}

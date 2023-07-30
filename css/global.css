@@ -201,6 +201,9 @@ header .container .headerdiv .buttondiv .button1 {
   letter-spacing: -0.36px;
   border: none;
 }
+header .container .headerdiv .buttondiv .button1:hover {
+  background-color: #fffbe4;
+}
 header .container .headerdiv .buttondiv .button2 {
   height: 60px;
   padding: 16px 24px;
@@ -216,6 +219,9 @@ header .container .headerdiv .buttondiv .button2 {
   line-height: 23px;
   letter-spacing: -0.36px;
 }
+header .container .headerdiv .buttondiv .button2:hover {
+  background-color: #96c3fa;
+}
 
 .s-1 {
   background-color: #043873;
@@ -226,10 +232,11 @@ header .container .headerdiv .buttondiv .button2 {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .s-1 .container .s-1-div {
   display: flex;
-  width: 656px;
+  width: 920px;
   flex-direction: column;
   align-items: flex-start;
   gap: 3.325px;
@@ -270,6 +277,9 @@ header .container .headerdiv .buttondiv .button2 {
   font-weight: 500;
   line-height: 23px;
   letter-spacing: -0.36px;
+}
+.s-1 .container .s-1-div button:hover {
+  background-color: #96c3fa;
 }
 .s-1 .container .imgcont {
   width: 400px;
@@ -336,12 +346,194 @@ header .container .headerdiv .buttondiv .button2 {
   line-height: 23px;
   letter-spacing: -0.36px;
 }
+.s-2 .container .s-2-div button:hover {
+  background-color: #96c3fa;
+}
 .s-2 .container .imgcont {
   width: 824px;
   display: flex;
   background: var(--primary-100, #c4defd);
   border-radius: 12px;
   width: 748px;
+}
+
+footer {
+  background: #043873;
+  padding: 140px 0 32px;
+}
+footer .container {
+  width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  width: 1480px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+footer .f-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  width: 240px;
+}
+footer .f-div .logoname {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .f-div .logoname h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer .f-div p {
+  color: #f7f7ee;
+  width: 240px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+footer ul a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+footer ul a:hover {
+  color: #ffe492;
+}
+footer ul .current {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+footer .f-div3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .f-div3 h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  text-align: center;
+}
+footer .f-div3 .s-div {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .f-div3 .s-div .s-div1 {
+  width: 100px;
+}
+footer .f-div3 .s-div .s-div1 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+footer .f-div3 .s-div .s-div1 ul a {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+footer .f-div3 .s-div .s-div1 ul a:hover {
+  color: #ffe492;
+}
+footer .f-div3 .s-div .s-div2 {
+  width: 130px;
+}
+footer .f-div3 .s-div .s-div2 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+footer .f-div3 .s-div .s-div2 ul a {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+footer .f-div3 .s-div .s-div2 ul a:hover {
+  color: #ffe492;
+}
+footer .f-div4 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .f-div4 h6 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+footer .f-div4 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+footer .f-div4 ul li {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+footer .f-div4 ul li .telldiv {
+  width: 258px;
+}
+footer .f-div4 ul li a {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+footer .f-div4 ul li a:hover {
+  color: #ffe492;
 }
 
 .s-3 {
@@ -397,6 +589,9 @@ header .container .headerdiv .buttondiv .button2 {
   font-weight: 500;
   line-height: 23px;
   letter-spacing: -0.36px;
+}
+.s-3 .container .s-3-div button:hover {
+  background-color: #96c3fa;
 }
 .s-3 .container .imgcont {
   width: 824px;
@@ -468,18 +663,28 @@ header .container .headerdiv .buttondiv .button2 {
   line-height: 23px;
   letter-spacing: -0.36px;
 }
+.s-4 .container .s-4-div button:hover {
+  background-color: #96c3fa;
+}
 
-.s-5 .container {
+.s-5,
+.ser-s-1 {
+  margin-bottom: 140px;
+}
+.s-5 .container,
+.ser-s-1 .container {
   width: 1480px;
   margin: 0 auto;
 }
-.s-5 .container .hp {
+.s-5 .container .hp,
+.ser-s-1 .container .hp {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.s-5 .container .hp h5 {
+.s-5 .container .hp h5,
+.ser-s-1 .container .hp h5 {
   color: #212529;
   font-family: Inter;
   font-size: 64px;
@@ -491,7 +696,8 @@ header .container .headerdiv .buttondiv .button2 {
   margin-bottom: 24px;
   text-align: center;
 }
-.s-5 .container .hp p {
+.s-5 .container .hp p,
+.ser-s-1 .container .hp p {
   color: #212529;
   font-family: Inter;
   font-size: 25px;
@@ -504,7 +710,8 @@ header .container .headerdiv .buttondiv .button2 {
   width: 979px;
   text-align: center;
 }
-.s-5 .container .cardsdiv {
+.s-5 .container .cardsdiv,
+.ser-s-1 .container .cardsdiv {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -516,11 +723,17 @@ header .container .headerdiv .buttondiv .button2 {
 .s-5 .container .cardsdiv .card3,
 .s-5 .container .cardsdiv .card4,
 .s-5 .container .cardsdiv .card5,
-.s-5 .container .cardsdiv .card6 {
+.s-5 .container .cardsdiv .card6,
+.ser-s-1 .container .cardsdiv .card1,
+.ser-s-1 .container .cardsdiv .card2,
+.ser-s-1 .container .cardsdiv .card3,
+.ser-s-1 .container .cardsdiv .card4,
+.ser-s-1 .container .cardsdiv .card5,
+.ser-s-1 .container .cardsdiv .card6 {
   padding: 40px 44px;
   border-radius: 10px;
-  border: 1px solid #ffe492;
-  background: #fff;
+  background: #043873;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
   width: 472px;
 }
 .s-5 .container .cardsdiv .card1 img,
@@ -528,19 +741,32 @@ header .container .headerdiv .buttondiv .button2 {
 .s-5 .container .cardsdiv .card3 img,
 .s-5 .container .cardsdiv .card4 img,
 .s-5 .container .cardsdiv .card5 img,
-.s-5 .container .cardsdiv .card6 img {
+.s-5 .container .cardsdiv .card6 img,
+.ser-s-1 .container .cardsdiv .card1 img,
+.ser-s-1 .container .cardsdiv .card2 img,
+.ser-s-1 .container .cardsdiv .card3 img,
+.ser-s-1 .container .cardsdiv .card4 img,
+.ser-s-1 .container .cardsdiv .card5 img,
+.ser-s-1 .container .cardsdiv .card6 img {
   width: 100%;
+  height: 270px;
+  border-radius: 10px;
 }
 .s-5 .container .cardsdiv .card1 h6,
 .s-5 .container .cardsdiv .card2 h6,
 .s-5 .container .cardsdiv .card3 h6,
 .s-5 .container .cardsdiv .card4 h6,
 .s-5 .container .cardsdiv .card5 h6,
-.s-5 .container .cardsdiv .card6 h6 {
-  color: #212529;
-  /* Header/H4 */
+.s-5 .container .cardsdiv .card6 h6,
+.ser-s-1 .container .cardsdiv .card1 h6,
+.ser-s-1 .container .cardsdiv .card2 h6,
+.ser-s-1 .container .cardsdiv .card3 h6,
+.ser-s-1 .container .cardsdiv .card4 h6,
+.ser-s-1 .container .cardsdiv .card5 h6,
+.ser-s-1 .container .cardsdiv .card6 h6 {
+  color: #ffe492;
   font-family: Inter;
-  font-size: 36px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -551,8 +777,186 @@ header .container .headerdiv .buttondiv .button2 {
 .s-5 .container .cardsdiv .card3 p,
 .s-5 .container .cardsdiv .card4 p,
 .s-5 .container .cardsdiv .card5 p,
-.s-5 .container .cardsdiv .card6 p {
+.s-5 .container .cardsdiv .card6 p,
+.ser-s-1 .container .cardsdiv .card1 p,
+.ser-s-1 .container .cardsdiv .card2 p,
+.ser-s-1 .container .cardsdiv .card3 p,
+.ser-s-1 .container .cardsdiv .card4 p,
+.ser-s-1 .container .cardsdiv .card5 p,
+.ser-s-1 .container .cardsdiv .card6 p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.36px;
+}
+.s-5 .container .cardsdiv .card1:hover,
+.s-5 .container .cardsdiv .card2:hover,
+.s-5 .container .cardsdiv .card3:hover,
+.s-5 .container .cardsdiv .card4:hover,
+.s-5 .container .cardsdiv .card5:hover,
+.s-5 .container .cardsdiv .card6:hover,
+.ser-s-1 .container .cardsdiv .card1:hover,
+.ser-s-1 .container .cardsdiv .card2:hover,
+.ser-s-1 .container .cardsdiv .card3:hover,
+.ser-s-1 .container .cardsdiv .card4:hover,
+.ser-s-1 .container .cardsdiv .card5:hover,
+.ser-s-1 .container .cardsdiv .card6:hover {
+  transition: 0.3s;
+  background-color: #ffffff;
+  border: 1px solid #ffe492;
+}
+.s-5 .container .cardsdiv .card1:hover h6,
+.s-5 .container .cardsdiv .card2:hover h6,
+.s-5 .container .cardsdiv .card3:hover h6,
+.s-5 .container .cardsdiv .card4:hover h6,
+.s-5 .container .cardsdiv .card5:hover h6,
+.s-5 .container .cardsdiv .card6:hover h6,
+.ser-s-1 .container .cardsdiv .card1:hover h6,
+.ser-s-1 .container .cardsdiv .card2:hover h6,
+.ser-s-1 .container .cardsdiv .card3:hover h6,
+.ser-s-1 .container .cardsdiv .card4:hover h6,
+.ser-s-1 .container .cardsdiv .card5:hover h6,
+.ser-s-1 .container .cardsdiv .card6:hover h6 {
   color: #212529;
+}
+.s-5 .container .cardsdiv .card1:hover p,
+.s-5 .container .cardsdiv .card2:hover p,
+.s-5 .container .cardsdiv .card3:hover p,
+.s-5 .container .cardsdiv .card4:hover p,
+.s-5 .container .cardsdiv .card5:hover p,
+.s-5 .container .cardsdiv .card6:hover p,
+.ser-s-1 .container .cardsdiv .card1:hover p,
+.ser-s-1 .container .cardsdiv .card2:hover p,
+.ser-s-1 .container .cardsdiv .card3:hover p,
+.ser-s-1 .container .cardsdiv .card4:hover p,
+.ser-s-1 .container .cardsdiv .card5:hover p,
+.ser-s-1 .container .cardsdiv .card6:hover p {
+  color: #212529;
+}
+.s-5 .container .cardsdiv .card6 h6,
+.ser-s-1 .container .cardsdiv .card6 h6 {
+  font-size: 27px;
+  letter-spacing: -0.7px;
+  margin-bottom: 6px;
+}
+
+.s-6 {
+  margin-bottom: 152px;
+}
+.s-6 .container {
+  width: 1480px;
+  margin: 0 auto;
+}
+.s-6 .container h3 {
+  color: #212529;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px; /* 120% */
+  align-self: stretch;
+  margin-bottom: 60px;
+}
+.s-6 .container .cardwrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+.s-6 .container .cardwrapper .card1,
+.s-6 .container .cardwrapper .card2,
+.s-6 .container .cardwrapper .card3 {
+  width: 471px;
+  height: 498px;
+  display: flex;
+  padding: 60px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  flex: 1 0 0;
+  border-radius: 10px;
+  background: #4f9cf9;
+}
+.s-6 .container .cardwrapper .card1 .comment,
+.s-6 .container .cardwrapper .card2 .comment,
+.s-6 .container .cardwrapper .card3 .comment {
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 40px;
+}
+.s-6 .container .cardwrapper .card1 .comment i,
+.s-6 .container .cardwrapper .card2 .comment i,
+.s-6 .container .cardwrapper .card3 .comment i {
+  font-size: 86px;
+}
+.s-6 .container .cardwrapper .card1 .comment .i2,
+.s-6 .container .cardwrapper .card2 .comment .i2,
+.s-6 .container .cardwrapper .card3 .comment .i2 {
+  display: none;
+}
+.s-6 .container .cardwrapper .card1 .comment p,
+.s-6 .container .cardwrapper .card2 .comment p,
+.s-6 .container .cardwrapper .card3 .comment p {
+  color: #fff;
+  /* Paragraph/P2/Regular */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+}
+.s-6 .container .cardwrapper .card1 .student,
+.s-6 .container .cardwrapper .card2 .student,
+.s-6 .container .cardwrapper .card3 .student {
+  display: flex;
+  width: 383px;
+  align-items: flex-end;
+  gap: 42px;
+}
+.s-6 .container .cardwrapper .card1 .student img,
+.s-6 .container .cardwrapper .card2 .student img,
+.s-6 .container .cardwrapper .card3 .student img {
+  width: 95px;
+  height: 95px;
+  flex-shrink: 0;
+  border-radius: 95px;
+}
+.s-6 .container .cardwrapper .card1 .student .studentname,
+.s-6 .container .cardwrapper .card2 .student .studentname,
+.s-6 .container .cardwrapper .card3 .student .studentname {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.s-6 .container .cardwrapper .card1 .student .studentname h4,
+.s-6 .container .cardwrapper .card2 .student .studentname h4,
+.s-6 .container .cardwrapper .card3 .student .studentname h4 {
+  color: #043873;
+  /* Paragraph/P1/Semibold */
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+  align-self: stretch;
+}
+.s-6 .container .cardwrapper .card1 .student .studentname p,
+.s-6 .container .cardwrapper .card2 .student .studentname p,
+.s-6 .container .cardwrapper .card3 .student .studentname p {
+  color: #fff;
   /* Paragraph/P3/Regular */
   font-family: Inter;
   font-size: 16px;
@@ -560,4 +964,42 @@ header .container .headerdiv .buttondiv .button2 {
   font-weight: 400;
   line-height: 20px; /* 125% */
   letter-spacing: -0.32px;
+  align-self: stretch;
+}
+.s-6 .container .cardwrapper .card1:hover,
+.s-6 .container .cardwrapper .card2:hover,
+.s-6 .container .cardwrapper .card3:hover {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.s-6 .container .cardwrapper .card1:hover .comment,
+.s-6 .container .cardwrapper .card2:hover .comment,
+.s-6 .container .cardwrapper .card3:hover .comment {
+  border-bottom: 1px solid #212529;
+}
+.s-6 .container .cardwrapper .card1:hover .comment p,
+.s-6 .container .cardwrapper .card2:hover .comment p,
+.s-6 .container .cardwrapper .card3:hover .comment p {
+  color: #212529;
+}
+.s-6 .container .cardwrapper .card1:hover .comment i,
+.s-6 .container .cardwrapper .card2:hover .comment i,
+.s-6 .container .cardwrapper .card3:hover .comment i {
+  display: none;
+}
+.s-6 .container .cardwrapper .card1:hover .comment .i2,
+.s-6 .container .cardwrapper .card2:hover .comment .i2,
+.s-6 .container .cardwrapper .card3:hover .comment .i2 {
+  display: block;
+}
+.s-6 .container .cardwrapper .card1:hover .studentname h4,
+.s-6 .container .cardwrapper .card2:hover .studentname h4,
+.s-6 .container .cardwrapper .card3:hover .studentname h4 {
+  color: #212529;
+}
+.s-6 .container .cardwrapper .card1:hover .studentname p,
+.s-6 .container .cardwrapper .card2:hover .studentname p,
+.s-6 .container .cardwrapper .card3:hover .studentname p {
+  color: #212529;
 }/*# sourceMappingURL=global.css.map */
