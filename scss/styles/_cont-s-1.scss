@@ -1,0 +1,52 @@
+.cnt-s-1 {
+  margin-top: 250px;
+  margin-bottom: 138px;
+  .container {
+    @include container;
+    .contacts {
+      width: 100%;
+      background-color: $scolor2;
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 10px;
+      .contdiv {
+        h6 {
+          @include s-div-h1;
+        }
+        ul {
+          .tellli {
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+            @include s-div-p;
+            .telldiv {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+            }
+            width: 600px;
+            @include s-div-p;
+            font-size: 30px;
+            a {
+              @include s-div-p;
+            }
+          }
+          li {
+            @include s-div-p;
+            font-size: 30px;
+            a {
+              @include s-div-p;
+            }
+          }
+        }
+      }
+      .mapdiv {
+        h1 {
+          @include s-div-h1;
+          font-size: 44px;
+        }
+      }
+    }
+  }
+}

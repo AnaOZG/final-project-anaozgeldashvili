@@ -1,0 +1,26 @@
+.it-s-1 {
+  margin-top: 150px;
+  .container {
+    @include container;
+    .infodiv {
+      width: 100%;
+      background-color: $color1;
+      padding: 40px;
+      border-radius: 10px;
+      h4 {
+        @include s-div-h1-2;
+        color: $scolor1;
+        text-align: center;
+      }
+      p {
+        @include s-div-p-2;
+        color: $scolor3;
+        text-align: justify;
+      }
+      li {
+        @include s-div-p-2;
+        color: $scolor3;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.abtus-s-1 {
+  margin-top: 160px;
+  margin-bottom: 140px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    @include container;
+    .infodiv {
+      background: var(--primary-100, #c4defd);
+      border-radius: 10px;
+      box-shadow: 20px 15px 50px 0px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      width: 1200px;
+      h6 {
+        @include s-div-h1-2;
+        color: $color1;
+        text-align: center;
+      }
+      p {
+        @include s-div-p-2;
+        font-size: 30px;
+        text-align: justify;
+      }
+    }
+    .cardwrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .card1,
+      .card2,
+      .card3 {
+        border-radius: 10px;
+        background: var(--primary-100, #c4defd);
+        width: 400px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:hover {
+          background: var(--primary-100, #043873);
+          h1 {
+            color: $scolor3;
+          }
+          p {
+            color: $scolor3;
+          }
+        }
+        img {
+          width: 300px;
+        }
+        h1 {
+          @include s-div-h1-2;
+          font-size: 40px;
+          text-align: center;
+        }
+        p {
+          @include s-div-p-2;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

@@ -149,9 +149,20 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
+}
+@media (max-width: 1440px) {
+  header .container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+    width: 100%;
+  }
 }
 header .container {
-  width: 1480px;
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -212,7 +223,7 @@ header .container .headerdiv .buttondiv .button2 {
   background: #4f9cf9;
   color: #fff;
   border: none;
-  font-family: Inter;
+  font-family: inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -227,8 +238,22 @@ header .container .headerdiv .buttondiv .button2:hover {
   background-color: #043873;
   padding: 140px 220px;
 }
+@media (max-width: 1440px) {
+  .s-1 .container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+    width: 100%;
+  }
+  .s-1 .container .imgcont {
+    width: 300px;
+    height: 300px;
+  }
+}
 .s-1 .container {
-  width: 1480px;
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -244,7 +269,7 @@ header .container .headerdiv .buttondiv .button2:hover {
 }
 .s-1 .container .s-1-div h1 {
   color: #ffffff;
-  font-family: Inter;
+  font-family: inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -255,7 +280,7 @@ header .container .headerdiv .buttondiv .button2:hover {
 }
 .s-1 .container .s-1-div p {
   color: #ffffff;
-  font-family: Inter;
+  font-family: inter;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -271,7 +296,7 @@ header .container .headerdiv .buttondiv .button2:hover {
   background: #4f9cf9;
   color: #fff;
   border: none;
-  font-family: Inter;
+  font-family: inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -297,7 +322,8 @@ header .container .headerdiv .buttondiv .button2:hover {
   padding: 140px 220px;
 }
 .s-2 .container {
-  width: 1480px;
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -311,7 +337,7 @@ header .container .headerdiv .buttondiv .button2:hover {
 }
 .s-2 .container .s-2-div h1 {
   color: #212529;
-  font-family: Inter;
+  font-family: inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -322,7 +348,7 @@ header .container .headerdiv .buttondiv .button2:hover {
 }
 .s-2 .container .s-2-div p {
   color: #212529;
-  font-family: Inter;
+  font-family: inter;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -339,7 +365,7 @@ header .container .headerdiv .buttondiv .button2:hover {
   background: #4f9cf9;
   color: #fff;
   border: none;
-  font-family: Inter;
+  font-family: inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -362,7 +388,8 @@ footer {
   padding: 140px 0 32px;
 }
 footer .container {
-  width: 1480px;
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   width: 1480px;
@@ -521,7 +548,7 @@ footer .f-div4 ul li {
   letter-spacing: -0.32px;
 }
 footer .f-div4 ul li .telldiv {
-  width: 258px;
+  width: 260px;
 }
 footer .f-div4 ul li a {
   color: white;
@@ -541,7 +568,8 @@ footer .f-div4 ul li a:hover {
   padding: 140px 220px;
 }
 .s-3 .container {
-  width: 1480px;
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -557,7 +585,7 @@ footer .f-div4 ul li a:hover {
 }
 .s-3 .container .s-3-div h1 {
   color: #ffffff;
-  font-family: Inter;
+  font-family: inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -567,7 +595,7 @@ footer .f-div4 ul li a:hover {
 }
 .s-3 .container .s-3-div p {
   color: #ffffff;
-  font-family: Inter;
+  font-family: inter;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -583,7 +611,7 @@ footer .f-div4 ul li a:hover {
   background: #4f9cf9;
   color: #fff;
   border: none;
-  font-family: Inter;
+  font-family: inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -606,7 +634,8 @@ footer .f-div4 ul li a:hover {
   padding: 140px 220px;
 }
 .s-4 .container {
-  width: 1480px;
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -628,7 +657,7 @@ footer .f-div4 ul li a:hover {
 }
 .s-4 .container .s-4-div h1 {
   color: #212529;
-  font-family: Inter;
+  font-family: inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -639,7 +668,7 @@ footer .f-div4 ul li a:hover {
 }
 .s-4 .container .s-4-div p {
   color: #212529;
-  font-family: Inter;
+  font-family: inter;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -656,7 +685,7 @@ footer .f-div4 ul li a:hover {
   background: #4f9cf9;
   color: #fff;
   border: none;
-  font-family: Inter;
+  font-family: inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -667,26 +696,23 @@ footer .f-div4 ul li a:hover {
   background-color: #96c3fa;
 }
 
-.s-5,
-.ser-s-1 {
+.s-5 {
   margin-bottom: 140px;
 }
-.s-5 .container,
-.ser-s-1 .container {
-  width: 1480px;
+.s-5 .container {
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
 }
-.s-5 .container .hp,
-.ser-s-1 .container .hp {
+.s-5 .container .hp {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.s-5 .container .hp h5,
-.ser-s-1 .container .hp h5 {
+.s-5 .container .hp h5 {
   color: #212529;
-  font-family: Inter;
+  font-family: inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -696,10 +722,9 @@ footer .f-div4 ul li a:hover {
   margin-bottom: 24px;
   text-align: center;
 }
-.s-5 .container .hp p,
-.ser-s-1 .container .hp p {
+.s-5 .container .hp p {
   color: #212529;
-  font-family: Inter;
+  font-family: inter;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -710,8 +735,7 @@ footer .f-div4 ul li a:hover {
   width: 979px;
   text-align: center;
 }
-.s-5 .container .cardsdiv,
-.ser-s-1 .container .cardsdiv {
+.s-5 .container .cardsdiv {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -723,13 +747,7 @@ footer .f-div4 ul li a:hover {
 .s-5 .container .cardsdiv .card3,
 .s-5 .container .cardsdiv .card4,
 .s-5 .container .cardsdiv .card5,
-.s-5 .container .cardsdiv .card6,
-.ser-s-1 .container .cardsdiv .card1,
-.ser-s-1 .container .cardsdiv .card2,
-.ser-s-1 .container .cardsdiv .card3,
-.ser-s-1 .container .cardsdiv .card4,
-.ser-s-1 .container .cardsdiv .card5,
-.ser-s-1 .container .cardsdiv .card6 {
+.s-5 .container .cardsdiv .card6 {
   padding: 40px 44px;
   border-radius: 10px;
   background: #043873;
@@ -741,13 +759,7 @@ footer .f-div4 ul li a:hover {
 .s-5 .container .cardsdiv .card3 img,
 .s-5 .container .cardsdiv .card4 img,
 .s-5 .container .cardsdiv .card5 img,
-.s-5 .container .cardsdiv .card6 img,
-.ser-s-1 .container .cardsdiv .card1 img,
-.ser-s-1 .container .cardsdiv .card2 img,
-.ser-s-1 .container .cardsdiv .card3 img,
-.ser-s-1 .container .cardsdiv .card4 img,
-.ser-s-1 .container .cardsdiv .card5 img,
-.ser-s-1 .container .cardsdiv .card6 img {
+.s-5 .container .cardsdiv .card6 img {
   width: 100%;
   height: 270px;
   border-radius: 10px;
@@ -757,15 +769,9 @@ footer .f-div4 ul li a:hover {
 .s-5 .container .cardsdiv .card3 h6,
 .s-5 .container .cardsdiv .card4 h6,
 .s-5 .container .cardsdiv .card5 h6,
-.s-5 .container .cardsdiv .card6 h6,
-.ser-s-1 .container .cardsdiv .card1 h6,
-.ser-s-1 .container .cardsdiv .card2 h6,
-.ser-s-1 .container .cardsdiv .card3 h6,
-.ser-s-1 .container .cardsdiv .card4 h6,
-.ser-s-1 .container .cardsdiv .card5 h6,
-.ser-s-1 .container .cardsdiv .card6 h6 {
+.s-5 .container .cardsdiv .card6 h6 {
   color: #ffe492;
-  font-family: Inter;
+  font-family: inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -777,15 +783,9 @@ footer .f-div4 ul li a:hover {
 .s-5 .container .cardsdiv .card3 p,
 .s-5 .container .cardsdiv .card4 p,
 .s-5 .container .cardsdiv .card5 p,
-.s-5 .container .cardsdiv .card6 p,
-.ser-s-1 .container .cardsdiv .card1 p,
-.ser-s-1 .container .cardsdiv .card2 p,
-.ser-s-1 .container .cardsdiv .card3 p,
-.ser-s-1 .container .cardsdiv .card4 p,
-.ser-s-1 .container .cardsdiv .card5 p,
-.ser-s-1 .container .cardsdiv .card6 p {
+.s-5 .container .cardsdiv .card6 p {
   color: #fff;
-  font-family: Inter;
+  font-family: inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -797,13 +797,7 @@ footer .f-div4 ul li a:hover {
 .s-5 .container .cardsdiv .card3:hover,
 .s-5 .container .cardsdiv .card4:hover,
 .s-5 .container .cardsdiv .card5:hover,
-.s-5 .container .cardsdiv .card6:hover,
-.ser-s-1 .container .cardsdiv .card1:hover,
-.ser-s-1 .container .cardsdiv .card2:hover,
-.ser-s-1 .container .cardsdiv .card3:hover,
-.ser-s-1 .container .cardsdiv .card4:hover,
-.ser-s-1 .container .cardsdiv .card5:hover,
-.ser-s-1 .container .cardsdiv .card6:hover {
+.s-5 .container .cardsdiv .card6:hover {
   transition: 0.3s;
   background-color: #ffffff;
   border: 1px solid #ffe492;
@@ -813,13 +807,7 @@ footer .f-div4 ul li a:hover {
 .s-5 .container .cardsdiv .card3:hover h6,
 .s-5 .container .cardsdiv .card4:hover h6,
 .s-5 .container .cardsdiv .card5:hover h6,
-.s-5 .container .cardsdiv .card6:hover h6,
-.ser-s-1 .container .cardsdiv .card1:hover h6,
-.ser-s-1 .container .cardsdiv .card2:hover h6,
-.ser-s-1 .container .cardsdiv .card3:hover h6,
-.ser-s-1 .container .cardsdiv .card4:hover h6,
-.ser-s-1 .container .cardsdiv .card5:hover h6,
-.ser-s-1 .container .cardsdiv .card6:hover h6 {
+.s-5 .container .cardsdiv .card6:hover h6 {
   color: #212529;
 }
 .s-5 .container .cardsdiv .card1:hover p,
@@ -827,17 +815,10 @@ footer .f-div4 ul li a:hover {
 .s-5 .container .cardsdiv .card3:hover p,
 .s-5 .container .cardsdiv .card4:hover p,
 .s-5 .container .cardsdiv .card5:hover p,
-.s-5 .container .cardsdiv .card6:hover p,
-.ser-s-1 .container .cardsdiv .card1:hover p,
-.ser-s-1 .container .cardsdiv .card2:hover p,
-.ser-s-1 .container .cardsdiv .card3:hover p,
-.ser-s-1 .container .cardsdiv .card4:hover p,
-.ser-s-1 .container .cardsdiv .card5:hover p,
-.ser-s-1 .container .cardsdiv .card6:hover p {
+.s-5 .container .cardsdiv .card6:hover p {
   color: #212529;
 }
-.s-5 .container .cardsdiv .card6 h6,
-.ser-s-1 .container .cardsdiv .card6 h6 {
+.s-5 .container .cardsdiv .card6 h6 {
   font-size: 27px;
   letter-spacing: -0.7px;
   margin-bottom: 6px;
@@ -847,7 +828,8 @@ footer .f-div4 ul li a:hover {
   margin-bottom: 152px;
 }
 .s-6 .container {
-  width: 1480px;
+  max-width: 1480px;
+  width: 100%;
   margin: 0 auto;
 }
 .s-6 .container h3 {
@@ -908,7 +890,7 @@ footer .f-div4 ul li a:hover {
 .s-6 .container .cardwrapper .card3 .comment p {
   color: #fff;
   /* Paragraph/P2/Regular */
-  font-family: Inter;
+  font-family: inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -946,7 +928,7 @@ footer .f-div4 ul li a:hover {
 .s-6 .container .cardwrapper .card3 .student .studentname h4 {
   color: #043873;
   /* Paragraph/P1/Semibold */
-  font-family: Inter;
+  font-family: inter;
   font-size: 23px;
   font-style: normal;
   font-weight: 600;
@@ -958,7 +940,7 @@ footer .f-div4 ul li a:hover {
 .s-6 .container .cardwrapper .card3 .student .studentname p {
   color: #fff;
   /* Paragraph/P3/Regular */
-  font-family: Inter;
+  font-family: inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1002,4 +984,273 @@ footer .f-div4 ul li a:hover {
 .s-6 .container .cardwrapper .card2:hover .studentname p,
 .s-6 .container .cardwrapper .card3:hover .studentname p {
   color: #212529;
+}
+
+.ser-s-1 {
+  margin-top: 92px;
+}
+
+.abtus-s-1 {
+  margin-top: 160px;
+  margin-bottom: 140px;
+}
+.abtus-s-1 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+}
+.abtus-s-1 .container .infodiv {
+  background: var(--primary-100, #c4defd);
+  border-radius: 10px;
+  box-shadow: 20px 15px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 1200px;
+}
+.abtus-s-1 .container .infodiv h6 {
+  color: #212529;
+  font-family: inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  align-self: stretch;
+  margin-bottom: 24px;
+  color: #043873;
+  text-align: center;
+}
+.abtus-s-1 .container .infodiv p {
+  color: #212529;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  align-self: stretch;
+  margin-bottom: 60px;
+  font-size: 30px;
+  text-align: justify;
+}
+.abtus-s-1 .container .cardwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.abtus-s-1 .container .cardwrapper .card1,
+.abtus-s-1 .container .cardwrapper .card2,
+.abtus-s-1 .container .cardwrapper .card3 {
+  border-radius: 10px;
+  background: var(--primary-100, #c4defd);
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.abtus-s-1 .container .cardwrapper .card1:hover,
+.abtus-s-1 .container .cardwrapper .card2:hover,
+.abtus-s-1 .container .cardwrapper .card3:hover {
+  background: var(--primary-100, #043873);
+}
+.abtus-s-1 .container .cardwrapper .card1:hover h1,
+.abtus-s-1 .container .cardwrapper .card2:hover h1,
+.abtus-s-1 .container .cardwrapper .card3:hover h1 {
+  color: #ffffff;
+}
+.abtus-s-1 .container .cardwrapper .card1:hover p,
+.abtus-s-1 .container .cardwrapper .card2:hover p,
+.abtus-s-1 .container .cardwrapper .card3:hover p {
+  color: #ffffff;
+}
+.abtus-s-1 .container .cardwrapper .card1 img,
+.abtus-s-1 .container .cardwrapper .card2 img,
+.abtus-s-1 .container .cardwrapper .card3 img {
+  width: 300px;
+}
+.abtus-s-1 .container .cardwrapper .card1 h1,
+.abtus-s-1 .container .cardwrapper .card2 h1,
+.abtus-s-1 .container .cardwrapper .card3 h1 {
+  color: #212529;
+  font-family: inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  align-self: stretch;
+  margin-bottom: 24px;
+  font-size: 40px;
+  text-align: center;
+}
+.abtus-s-1 .container .cardwrapper .card1 p,
+.abtus-s-1 .container .cardwrapper .card2 p,
+.abtus-s-1 .container .cardwrapper .card3 p {
+  color: #212529;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  align-self: stretch;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+
+.it-s-1 {
+  margin-top: 150px;
+}
+.it-s-1 .container {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+}
+.it-s-1 .container .infodiv {
+  width: 100%;
+  background-color: #043873;
+  padding: 40px;
+  border-radius: 10px;
+}
+.it-s-1 .container .infodiv h4 {
+  color: #212529;
+  font-family: inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  align-self: stretch;
+  margin-bottom: 24px;
+  color: #ffe492;
+  text-align: center;
+}
+.it-s-1 .container .infodiv p {
+  color: #212529;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  align-self: stretch;
+  margin-bottom: 60px;
+  color: #ffffff;
+  text-align: justify;
+}
+.it-s-1 .container .infodiv li {
+  color: #212529;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  align-self: stretch;
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+
+.cnt-s-1 {
+  margin-top: 250px;
+  margin-bottom: 138px;
+}
+.cnt-s-1 .container {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cnt-s-1 .container .contacts {
+  width: 100%;
+  background-color: #a7cefc;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.cnt-s-1 .container .contacts .contdiv h6 {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.28px;
+  margin-bottom: 24px;
+}
+.cnt-s-1 .container .contacts .contdiv ul .tellli {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  color: #ffffff;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+  width: 600px;
+  color: #ffffff;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+.cnt-s-1 .container .contacts .contdiv ul .tellli .telldiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cnt-s-1 .container .contacts .contdiv ul .tellli a {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+}
+.cnt-s-1 .container .contacts .contdiv ul li {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+.cnt-s-1 .container .contacts .contdiv ul li a {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+}
+.cnt-s-1 .container .contacts .mapdiv h1 {
+  color: #ffffff;
+  font-family: inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.28px;
+  margin-bottom: 24px;
+  font-size: 44px;
 }/*# sourceMappingURL=global.css.map */
