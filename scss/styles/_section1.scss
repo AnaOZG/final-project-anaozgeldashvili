@@ -1,47 +1,49 @@
 .s-1 {
-  background-color: $color1;
-  padding: 140px 220px;
-  @media (max-width: 1440px) {
+    background-color: $color1;
+    @media (max-width: 1440px) {
+        .container {
+            @include container;
+            max-width: 1380px;
+            width: 90%;
+            .imgcont {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
     .container {
-      @include container;
-      max-width: 1380px;
-      width: 100%;
-      .imgcont {
-        width: 300px;
-        height: 300px;
-      }
+        @include container;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .s-1-div {
+            display: flex;
+            max-width: 920px;
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 3.325px;
+            padding-right: 25px;
+            h1 {
+                @include s-div-h1;
+                width: 100%;
+            }
+            p {
+                @include s-div-p;
+            }
+            button {
+                @include button2;
+            }
+        }
+        .imgcont {
+            width: 400px;
+            height: 400px;
+            @media (max-width: 1440px) {
+                width: 685px;
+                height: 456px;
+            }
+        }
     }
-  }
-  .container {
-    @include container;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .s-1-div {
-      display: flex;
-      width: 920px;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 3.325px;
-      padding-right: 25px;
-      h1 {
-        @include s-div-h1;
-        width: 920px;
-      }
-      p {
-        @include s-div-p;
-      }
-      button {
-        @include button2;
-      }
-    }
-    .imgcont {
-      width: 400px;
-      height: 400px;
-      @media (max-width: 1440px) {
-        width: 685px;
-        height: 456px;
-      }
-    }
-  }
 }

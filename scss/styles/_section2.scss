@@ -1,29 +1,30 @@
 .s-2 {
-  background: $scolor3;
-  padding: 140px 220px;
-  .container {
-    @include container;
-    display: flex;
-    justify-content: space-between;
-    .s-2-div {
-      width: 656px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      h1 {
-        @include s-div-h1-2;
-      }
-      p {
-        @include s-div-p-2;
-      }
-      button {
-        @include button2;
-      }
+    background: $scolor3;
+    padding: 140px 220px;
+    .container {
+        @include container;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .s-2-div {
+            width: 656px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            h1 {
+                @include s-div-h1-2;
+            }
+            p {
+                @include s-div-p-2;
+            }
+            button {
+                @include button2;
+            }
+        }
+        .imgcont {
+            @include imgcont;
+            width: 748px;
+        }
     }
-    .imgcont {
-      @include imgcont;
-      width: 748px;
-    }
-  }
 }
