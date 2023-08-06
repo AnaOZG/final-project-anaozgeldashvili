@@ -2,11 +2,14 @@
   margin-bottom: 152px;
   .container {
     @include container;
+    @media (max-width: 1450px) {
+      width: 90%;
+    }
     h3 {
       color: #212529;
       text-align: center;
       font-family: Inter;
-      font-size: 70px;
+      font-size: 54px;
       font-style: normal;
       font-weight: 700;
       line-height: 84px; /* 120% */
@@ -14,10 +17,16 @@
       margin-bottom: 60px;
     }
     .cardwrapper {
+      width: 100%;
       display: flex;
       align-items: center;
       gap: 32px;
       align-self: stretch;
+      flex-wrap: wrap;
+      @media (max-width: 1450px) {
+        display: flex;
+        justify-content: center;
+      }
       .card1,
       .card2,
       .card3 {
@@ -46,6 +55,7 @@
               color: #212529;
             }
           }
+          transition: 0.15s;
         }
       }
     }

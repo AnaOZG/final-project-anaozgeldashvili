@@ -1,13 +1,25 @@
 footer {
   background: #043873;
   padding: 140px 0 32px;
+  @media (max-width: 1440px) {
+    padding: 140px 32px 32px 32px;
+    .container {
+      max-width: 1380px;
+      width: 100%;
+    }
+  }
   .container {
     @include container;
     display: flex;
-    width: 1480px;
+    max-width: 1480px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    flex-wrap: wrap;
+    @media (max-width: 1450px) {
+      width: 90%;
+    }
   }
   .f-div {
     display: flex;
@@ -15,6 +27,7 @@ footer {
     align-items: flex-start;
     gap: 15px;
     width: 240px;
+    flex-wrap: wrap;
     .logoname {
       width: 240px;
       display: flex;
@@ -74,6 +87,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    flex-wrap: wrap;
     h2 {
       color: #fff;
 

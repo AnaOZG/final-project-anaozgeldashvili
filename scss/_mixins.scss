@@ -2,99 +2,22 @@
   max-width: 1480px;
   width: 100%;
   margin: 0 auto;
-}
-@mixin button2 {
-  height: 60px;
-  padding: 16px 24px;
-  gap: 10px;
-  border-radius: 8px;
-  background: #4f9cf9;
-  color: #fff;
-  border: none;
-  &:hover {
-    background-color: #96c3fa;
-  }
-
-  font-family: $font;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 23px;
-  letter-spacing: -0.36px;
-}
-@mixin s-div-h1 {
-  color: $scolor3;
-  font-family: $font;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -1.28px;
-  margin-bottom: 24px;
-}
-@mixin s-div-p {
-  color: $scolor3;
-  font-family: $font;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: -0.36px;
-  margin-bottom: 60px;
-}
-@mixin s-div-h1-2 {
-  color: $scolor4;
-
-  font-family: $font;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -1.44px;
-  align-self: stretch;
-  margin-bottom: 24px;
-}
-@mixin s-div-p-2 {
-  color: $scolor4;
-
-  font-family: $font;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: -0.36px;
-  align-self: stretch;
-  margin-bottom: 60px;
-}
-@mixin imgcont {
-  width: 824px;
-  display: flex;
-  background: var(--primary-100, #c4defd);
-  border-radius: 12px;
-}
-@mixin carddiv {
-  padding: 40px 44px;
-  border-radius: 10px;
-  background: #043873;
-  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
-  width: 472px;
-  img {
+  @media (max-width: 1440px) {
+    max-width: 1380px;
     width: 100%;
-    height: 270px;
-    border-radius: 10px;
   }
-  h6 {
-    color: #ffe492;
 
-    font-family: $font;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.72px;
-  }
-  p {
+  @mixin button2 {
+    height: 60px;
+    padding: 16px 24px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4f9cf9;
     color: #fff;
+    border: none;
+    &:hover {
+      background-color: #96c3fa;
+    }
 
     font-family: $font;
     font-size: 18px;
@@ -103,85 +26,166 @@
     line-height: 23px;
     letter-spacing: -0.36px;
   }
-}
-@mixin students {
-  width: 471px;
-  height: 498px;
-  display: flex;
-  padding: 60px 40px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 60px;
-  flex: 1 0 0;
-  border-radius: 10px;
-  background: #4f9cf9;
-  .comment {
-    display: flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
+  @mixin s-div-h1 {
+    color: $scolor3;
+    font-family: $font;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.28px;
+    margin-bottom: 24px;
+  }
+  @mixin s-div-p {
+    color: $scolor3;
+    font-family: $font;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    margin-bottom: 60px;
+  }
+  @mixin s-div-h1-2 {
+    color: $scolor4;
+
+    font-family: $font;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.44px;
     align-self: stretch;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 40px;
-    i {
-      font-size: 86px;
+    margin-bottom: 24px;
+  }
+  @mixin s-div-p-2 {
+    color: $scolor4;
+
+    font-family: $font;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    align-self: stretch;
+    margin-bottom: 60px;
+  }
+  @mixin imgcont {
+    width: 824px;
+    display: flex;
+    background: var(--primary-100, #c4defd);
+    border-radius: 12px;
+  }
+  @mixin carddiv {
+    padding: 40px 44px;
+    border-radius: 10px;
+    background: #043873;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
+    width: 472px;
+    img {
+      width: 100%;
+      height: 270px;
+      border-radius: 10px;
     }
-    .i2 {
-      display: none;
+    h6 {
+      color: #ffe492;
+
+      font-family: $font;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.72px;
     }
     p {
       color: #fff;
 
-      /* Paragraph/P2/Regular */
       font-family: $font;
       font-size: 18px;
       font-style: normal;
-      font-weight: 400;
-      line-height: 30px; /* 166.667% */
+      font-weight: 500;
+      line-height: 23px;
       letter-spacing: -0.36px;
     }
   }
-  .student {
+  @mixin students {
+    max-width: 471px;
+    width: 100%;
+    height: 498px;
     display: flex;
-    width: 383px;
-    align-items: flex-end;
-    gap: 42px;
-    img {
-      width: 95px;
-      height: 95px;
-      flex-shrink: 0;
-      border-radius: 95px;
-    }
-    .studentname {
+    padding: 60px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background: #4f9cf9;
+    .comment {
       display: flex;
+      padding-bottom: 0px;
       flex-direction: column;
       align-items: flex-start;
-      gap: 15px;
-      flex: 1 0 0;
+      gap: 32px;
       align-self: stretch;
-      h4 {
-        color: #043873;
-
-        /* Paragraph/P1/Semibold */
-        font-family: $font;
-        font-size: 23px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 36px; /* 150% */
-        align-self: stretch;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 40px;
+      i {
+        font-size: 86px;
+      }
+      .i2 {
+        display: none;
       }
       p {
         color: #fff;
 
-        /* Paragraph/P3/Regular */
+        text-align: justify;
         font-family: $font;
-        font-size: 16px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 20px; /* 125% */
-        letter-spacing: -0.32px;
+        line-height: 30px;
+        letter-spacing: -0.36px;
+      }
+    }
+    .student {
+      display: flex;
+      width: 383px;
+      align-items: flex-end;
+      gap: 42px;
+      img {
+        width: 95px;
+        height: 95px;
+        flex-shrink: 0;
+        border-radius: 95px;
+      }
+      .studentname {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        flex: 1 0 0;
         align-self: stretch;
+        h4 {
+          color: #043873;
+
+          font-family: $font;
+          font-size: 23px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 36px;
+          align-self: stretch;
+        }
+        p {
+          color: #fff;
+
+          font-family: $font;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: -0.32px;
+          align-self: stretch;
+        }
       }
     }
   }

@@ -5,6 +5,13 @@
     @include container;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+    @media (max-width: 1440px) {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
     .imgcont {
       @include imgcont;
       width: 714px;
