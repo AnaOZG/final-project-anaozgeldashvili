@@ -14,7 +14,8 @@
       border-radius: 10px;
       box-shadow: 20px 15px 50px 0px rgba(0, 0, 0, 0.1);
       padding: 40px;
-      width: 1200px;
+      max-width: 1200px;
+      width: 100%;
       h6 {
         @include s-div-h1-2;
         color: $color1;
@@ -30,6 +31,12 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
+      @media (max-width: 1450px) {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+      }
       .card1,
       .card2,
       .card3 {

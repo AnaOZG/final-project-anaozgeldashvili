@@ -5,6 +5,7 @@ header {
   background: $color1;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   .container {
     @include container;
     max-width: 1480px;
@@ -20,12 +21,9 @@ header {
       height: 40px;
     }
     .headerdiv {
-      width: 988.5px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      width: 700px;
       ul {
-        width: 551.5px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -36,34 +34,6 @@ header {
           font-style: normal;
           font-weight: 500;
           line-height: 23px;
-        }
-      }
-      .buttondiv {
-        width: 377px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .button1 {
-          height: 60px;
-          padding: 16px 40px;
-          border-radius: 8px;
-          background: #ffe492;
-          color: #043873;
-
-          /* Paragraph/P2/Medium */
-          font-family: Inter;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: 23px; /* 127.778% */
-          letter-spacing: -0.36px;
-          border: none;
-          &:hover {
-            background-color: #fffbe4;
-          }
-        }
-        .button2 {
-          @include button2;
         }
       }
     }
