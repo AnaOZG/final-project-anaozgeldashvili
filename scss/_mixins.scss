@@ -6,12 +6,6 @@
     width: 90%;
   }
 }
-@mixin button2 {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-  gap: 10px;
-}
 @font-face {
   font-family: "Sylfaen";
   src: url("Sylfaen.woff2") format("woff2"), url("Sylfaen.woff") format("woff");
@@ -239,4 +233,23 @@
       }
     }
   }
+}
+@mixin button2 {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #4f9cf9;
+
+  color: #fff;
+
+  /* Paragraph/P2/Medium */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 127.778% */
+  letter-spacing: -0.36px;
+  border: none;
 }

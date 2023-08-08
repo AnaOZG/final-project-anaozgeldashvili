@@ -156,6 +156,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
 }
 header .container {
   max-width: 1480px;
@@ -332,6 +333,17 @@ header .container .headerdiv ul a {
   padding: 20px;
   align-items: center;
   gap: 10px;
+  border-radius: 6px;
+  background: #4f9cf9;
+  color: #fff;
+  /* Paragraph/P2/Medium */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 127.778% */
+  letter-spacing: -0.36px;
+  border: none;
 }
 .s-2 .container .imgcont {
   width: 824px;
@@ -611,6 +623,17 @@ footer .f-div4 ul li a:hover {
   padding: 20px;
   align-items: center;
   gap: 10px;
+  border-radius: 6px;
+  background: #4f9cf9;
+  color: #fff;
+  /* Paragraph/P2/Medium */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 127.778% */
+  letter-spacing: -0.36px;
+  border: none;
 }
 .s-3 .container .imgcont {
   width: 824px;
@@ -699,6 +722,17 @@ footer .f-div4 ul li a:hover {
   padding: 20px;
   align-items: center;
   gap: 10px;
+  border-radius: 6px;
+  background: #4f9cf9;
+  color: #fff;
+  /* Paragraph/P2/Medium */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 127.778% */
+  letter-spacing: -0.36px;
+  border: none;
 }
 
 .s-5 {
@@ -1427,6 +1461,7 @@ footer .f-div4 ul li a:hover {
   justify-content: space-between;
 }
 .cnt-s-2 .container .reportus .form {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 51px;
@@ -1437,7 +1472,7 @@ footer .f-div4 ul li a:hover {
   flex-shrink: 0;
   resize: none;
   border: 2px solid rgba(212, 211, 211, 0.3);
-  background: #8bb0ff;
+  background: #a7cefc;
   padding: 23px 21px;
 }
 .cnt-s-2 .container .reportus .form textarea ::-moz-placeholder {
@@ -1471,16 +1506,16 @@ footer .f-div4 ul li a:hover {
   width: 100%;
   height: 59px;
   flex-shrink: 0;
-  border: 2px solid rgba(136, 148, 255, 0.3);
-  background: #416ea8;
+  border: none;
+  background: #a7cefc;
   padding: 21px 19px;
 }
 .cnt-s-2 .container .reportus .form .form-1 form input:focus {
-  border: 3px solid #a7cefc;
+  border: 3px solid #4f9cf9;
 }
 .cnt-s-2 .container .reportus .form .form-1 form input[type=submit] {
-  background: #a7cefc;
-  color: #7171c2;
+  background: #4f9cf9;
+  color: #ffffff;
   font-size: 14px;
   font-family: Helvetica;
   font-style: normal;
@@ -1488,7 +1523,7 @@ footer .f-div4 ul li a:hover {
   line-height: normal;
 }
 .cnt-s-2 .container .reportus .form .form-1 form input[type=submit]:hover {
-  background: #4f9cf9;
+  background: #a7cefc;
 }
 .cnt-s-2 .container .reportus .form .form-2 {
   max-width: 756px;
