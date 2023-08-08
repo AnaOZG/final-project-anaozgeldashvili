@@ -5,8 +5,11 @@ header {
   background: $color1;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
+
+  @media (min-width: 1150px) {
+    position: fixed;
+    top: 0;
+  }
   .container {
     @include container;
     max-width: 1480px;
@@ -18,23 +21,49 @@ header {
     @media (max-width: 1450px) {
       width: 90%;
     }
+
     img {
       height: 40px;
     }
     .headerdiv {
       width: 700px;
+      @media (max-width: 1150px) {
+        display: none;
+      }
       ul {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        a {
-          color: #fff;
-          font-family: DM Sans;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: 23px;
+      }
+      a {
+        color: #fff;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+      }
+    }
+    .headerdiv2 {
+      @media (max-width: 1159px) {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+      .fa-solid {
+        font-size: 30px;
+        display: none;
+        @media (max-width: 1150px) {
+          display: block;
+        }
+      }
+      button {
+        @include button2;
+        @media (max-width: 840px) {
+          display: none;
         }
       }
     }

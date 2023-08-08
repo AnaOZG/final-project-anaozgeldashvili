@@ -1,0 +1,31 @@
+.news-s-1 {
+  margin-top: 160px;
+  margin-bottom: 150px;
+  .container {
+    @include container;
+    .newscardwrap {
+      display: flex;
+      justify-content: space-between;
+
+      .newscard1 {
+        max-width: 370px;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+
+        img {
+          width: 100%;
+          height: 280px;
+          object-fit: cover;
+        }
+
+        width: 370px;
+        p {
+          @include s-div-p-2;
+          font-size: 15px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

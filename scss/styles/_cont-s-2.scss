@@ -1,9 +1,9 @@
 .cnt-s-2 {
+  margin-top: 120px;
   .container {
     @include container;
     padding: 40px;
     h6 {
-      margin-top: 100px;
       @include s-div-h1-2;
       text-align: center;
       color: #575757;

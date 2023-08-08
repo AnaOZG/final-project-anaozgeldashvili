@@ -11,6 +11,9 @@
       justify-content: center;
       gap: 50px;
     }
+    @media (max-width: 1150px) {
+      width: 80%;
+    }
     .s-3-div {
       display: flex;
 
@@ -19,11 +22,20 @@
       justify-content: center;
       gap: 3.325px;
       padding-right: 25px;
+      @media (max-width: 1150px) {
+        align-items: center;
+      }
       h1 {
         @include s-div-h1;
+        @media (max-width: 1150px) {
+          text-align: center;
+        }
       }
       p {
         @include s-div-p;
+        @media (max-width: 1150px) {
+          text-align: center;
+        }
       }
       button {
         @include button2;

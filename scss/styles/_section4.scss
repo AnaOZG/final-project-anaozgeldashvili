@@ -12,10 +12,12 @@
       justify-content: center;
       gap: 50px;
     }
+    @media (max-width: 1150px) {
+      width: 80%;
+    }
     .imgcont {
       @include imgcont;
       width: 714px;
-      height: 532px;
     }
     .s-4-div {
       width: 700px;
@@ -23,11 +25,21 @@
       flex-direction: column;
       justify-content: center;
       align-items: baseline;
+      gap: 33px;
+      @media (max-width: 1150px) {
+        align-items: center;
+      }
       h1 {
         @include s-div-h1-2;
+        @media (max-width: 1150px) {
+          text-align: center;
+        }
       }
       p {
         @include s-div-p-2;
+        @media (max-width: 1150px) {
+          text-align: center;
+        }
       }
       button {
         @include button2;

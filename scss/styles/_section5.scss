@@ -5,12 +5,16 @@
     @media (max-width: 1450px) {
       width: 90%;
     }
+    @media (max-width: 1150px) {
+      width: 80%;
+    }
 
     .hp {
       width: 100%;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      margin-bottom: 24px;
       h5 {
         @include s-div-h1-2;
         text-align: center;

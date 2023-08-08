@@ -14,6 +14,9 @@
       justify-content: center;
       gap: 50px;
     }
+    @media (max-width: 1150px) {
+      width: 80%;
+    }
     .s-2-div {
       width: 656px;
       display: flex;
@@ -21,11 +24,21 @@
       align-items: flex-start;
       justify-content: center;
       flex-wrap: wrap;
+      gap: 33px;
+      @media (max-width: 1150px) {
+        align-items: center;
+      }
       h1 {
         @include s-div-h1-2;
+        @media (max-width: 1150px) {
+          text-align: center;
+        }
       }
       p {
         @include s-div-p-2;
+        @media (max-width: 1150px) {
+          text-align: center;
+        }
       }
       button {
         @include button2;
@@ -33,7 +46,7 @@
     }
     .imgcont {
       @include imgcont;
-      width: 748px;
+      width: 720px;
     }
   }
 }

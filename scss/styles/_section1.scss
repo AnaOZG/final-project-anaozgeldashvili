@@ -13,11 +13,17 @@
       justify-content: center;
       gap: 50px;
     }
+    @media (max-width: 1150px) {
+      width: 80%;
+    }
     h1 {
       @include s-div-h1;
       width: 60%;
       @media (max-width: 1440px) {
         font-size: 44px;
+      }
+      @media (max-width: 1150px) {
+        text-align: center;
       }
     }
     .imgcont {
