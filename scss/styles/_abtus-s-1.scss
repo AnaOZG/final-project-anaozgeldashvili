@@ -20,11 +20,17 @@
         @include s-div-h1-2;
         color: $color1;
         text-align: center;
+        @media (max-width: 380px) {
+          font-size: 25px;
+        }
       }
       p {
         @include s-div-p-2;
         font-size: 30px;
         text-align: justify;
+        @media (max-width: 380px) {
+          font-size: 15px;
+        }
       }
     }
     .cardwrapper {
@@ -58,15 +64,24 @@
         }
         img {
           width: 300px;
+          @media (max-width: 380px) {
+            display: none;
+          }
         }
         h1 {
           @include s-div-h1-2;
           font-size: 40px;
           text-align: center;
+          @media (max-width: 380px) {
+            font-size: 25px;
+          }
         }
         p {
           @include s-div-p-2;
           text-align: justify;
+          @media (max-width: 380px) {
+            font-size: 15px;
+          }
         }
       }
     }

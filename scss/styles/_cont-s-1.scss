@@ -10,26 +10,22 @@
       display: flex;
       justify-content: space-between;
       border-radius: 10px;
+      @media (max-width: 1550px) {
+        display: block;
+      }
       .contdiv {
         ul {
-          .tellli {
-            width: 600px;
-            margin-right: 20px;
-            @include s-div-p;
-            font-size: 25px;
-
-            a {
-              @include s-div-p;
-              font-size: 25px;
-            }
-          }
           li {
             @include s-div-p;
             font-size: 25px;
+            flex-wrap: wrap;
             a {
               @include s-div-p;
             }
           }
+        }
+        @media (max-width: 1550px) {
+          text-align: center;
         }
       }
       .mapdiv {
@@ -37,6 +33,9 @@
         iframe {
           width: 100%;
           height: 100%;
+        }
+        @media (max-width: 1550px) {
+          display: none;
         }
       }
     }

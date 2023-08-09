@@ -1,6 +1,9 @@
 .s-2 {
   background: $scolor3;
   padding: 140px 220px;
+  @media (max-width: 440px) {
+    padding: 0;
+  }
   .container {
     padding: 140px 0;
     @include container;
@@ -16,6 +19,9 @@
     }
     @media (max-width: 1150px) {
       width: 80%;
+    }
+    @media (max-width: 440px) {
+      width: 280px;
     }
     .s-2-div {
       width: 656px;

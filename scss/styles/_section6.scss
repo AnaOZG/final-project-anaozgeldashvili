@@ -18,6 +18,9 @@
       line-height: 84px; /* 120% */
       align-self: stretch;
       margin-bottom: 60px;
+      @media (max-width: 550px) {
+        display: none;
+      }
     }
     .cardwrapper {
       width: 100%;

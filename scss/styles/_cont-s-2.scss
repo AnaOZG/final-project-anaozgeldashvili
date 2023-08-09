@@ -7,6 +7,9 @@
       @include s-div-h1-2;
       text-align: center;
       color: #575757;
+      @media (max-width: 360px) {
+        font-size: 30px;
+      }
     }
     .reportus {
       width: 100%;
@@ -17,29 +20,49 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 51px;
-        textarea {
+        flex-wrap: wrap;
+        @media (max-width: 1550px) {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          gap: 40px;
+        }
+        .form-2 {
+          width: 756px;
           height: 298px;
-          width: 100%;
-          flex-shrink: 0;
+          @media (max-width: 1325px) {
+            width: 60%;
+          }
+          @media (max-width: 1550px) {
+            width: 100%;
+          }
+          textarea {
+            height: 298px;
+            width: 100%;
+            flex-shrink: 0;
 
-          resize: none;
+            resize: none;
 
-          border: 2px solid rgba(212, 211, 211, 0.3);
-          background: $scolor2;
+            border: 2px solid rgba(212, 211, 211, 0.3);
+            background: $scolor2;
 
-          padding: 23px 21px;
-          ::placeholder {
-            color: #99999a;
-            font-size: 14px;
-            font-family: Helvetica;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
+            padding: 23px 21px;
+
+            ::placeholder {
+              color: #99999a;
+              font-size: 14px;
+              font-family: Helvetica;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
           }
         }
         .form-1 {
-          max-width: 340px;
-          width: 100%;
+          width: 340px;
+          @media (max-width: 1550px) {
+            width: 100%;
+          }
           form {
             width: 100%;
             display: flex;
@@ -71,12 +94,6 @@
               }
             }
           }
-        }
-        .form-2 {
-          max-width: 756px;
-          width: 100%;
-          max-height: 298px;
-          height: 100%;
         }
       }
     }

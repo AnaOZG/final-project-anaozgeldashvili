@@ -248,6 +248,11 @@ header .container .headerdiv2 button {
   letter-spacing: -0.36px;
   border: none;
 }
+@media (max-width: 550px) {
+  header .container .headerdiv2 button {
+    font-size: 15px;
+  }
+}
 @media (max-width: 840px) {
   header .container .headerdiv2 button {
     display: none;
@@ -307,6 +312,11 @@ header .container .headerdiv2 button {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .s-1 .container h1 {
+    font-size: 35px;
+  }
+}
 @media (max-width: 1440px) {
   .s-1 .container h1 {
     font-size: 44px;
@@ -315,6 +325,16 @@ header .container .headerdiv2 button {
 @media (max-width: 1150px) {
   .s-1 .container h1 {
     text-align: center;
+  }
+}
+@media (max-width: 550px) {
+  .s-1 .container h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 440px) {
+  .s-1 .container h1 {
+    font-size: 25px;
   }
 }
 .s-1 .container .imgcont {
@@ -331,6 +351,11 @@ header .container .headerdiv2 button {
 .s-2 {
   background: #ffffff;
   padding: 140px 220px;
+}
+@media (max-width: 440px) {
+  .s-2 {
+    padding: 0;
+  }
 }
 .s-2 .container {
   padding: 140px 0;
@@ -365,6 +390,11 @@ header .container .headerdiv2 button {
     width: 80%;
   }
 }
+@media (max-width: 440px) {
+  .s-2 .container {
+    width: 280px;
+  }
+}
 .s-2 .container .s-2-div {
   width: 656px;
   display: flex;
@@ -396,6 +426,11 @@ header .container .headerdiv2 button {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .s-2 .container .s-2-div h1 {
+    font-size: 35px;
+  }
+}
 @media (max-width: 1150px) {
   .s-2 .container .s-2-div h1 {
     text-align: center;
@@ -416,6 +451,11 @@ header .container .headerdiv2 button {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .s-2 .container .s-2-div p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1150px) {
   .s-2 .container .s-2-div p {
@@ -439,6 +479,11 @@ header .container .headerdiv2 button {
   letter-spacing: -0.36px;
   border: none;
 }
+@media (max-width: 550px) {
+  .s-2 .container .s-2-div button {
+    font-size: 15px;
+  }
+}
 .s-2 .container .imgcont {
   width: 824px;
   display: flex;
@@ -453,7 +498,12 @@ header .container .headerdiv2 button {
 }
 @media (max-width: 560px) {
   .s-2 .container .imgcont {
-    width: 285px;
+    width: 385px;
+  }
+}
+@media (max-width: 440px) {
+  .s-2 .container .imgcont {
+    width: 280px;
   }
 }
 
@@ -728,6 +778,11 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .s-3 .container .s-3-div h1 {
+    font-size: 35px;
+  }
+}
 @media (max-width: 1150px) {
   .s-3 .container .s-3-div h1 {
     text-align: center;
@@ -746,6 +801,11 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  @media (max-width: 550px) {
+    .s-3 .container .s-3-div p {
+      font-size: 20px;
+    }
+  }
 }
 @media (max-width: 1150px) {
   .s-3 .container .s-3-div p {
@@ -769,6 +829,11 @@ footer .f-div4 ul li a:hover {
   letter-spacing: -0.36px;
   border: none;
 }
+@media (max-width: 550px) {
+  .s-3 .container .s-3-div button {
+    font-size: 15px;
+  }
+}
 .s-3 .container .imgcont {
   width: 824px;
   display: flex;
@@ -783,7 +848,12 @@ footer .f-div4 ul li a:hover {
 }
 @media (max-width: 560px) {
   .s-3 .container .imgcont {
-    width: 285px;
+    width: 385px;
+  }
+}
+@media (max-width: 440px) {
+  .s-3 .container .imgcont {
+    width: 280px;
   }
 }
 
@@ -836,7 +906,12 @@ footer .f-div4 ul li a:hover {
 }
 @media (max-width: 560px) {
   .s-4 .container .imgcont {
-    width: 285px;
+    width: 385px;
+  }
+}
+@media (max-width: 440px) {
+  .s-4 .container .imgcont {
+    width: 280px;
   }
 }
 .s-4 .container .s-4-div {
@@ -869,6 +944,11 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .s-4 .container .s-4-div h1 {
+    font-size: 35px;
+  }
+}
 @media (max-width: 1150px) {
   .s-4 .container .s-4-div h1 {
     text-align: center;
@@ -889,6 +969,11 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .s-4 .container .s-4-div p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1150px) {
   .s-4 .container .s-4-div p {
@@ -911,6 +996,11 @@ footer .f-div4 ul li a:hover {
   line-height: 23px; /* 127.778% */
   letter-spacing: -0.36px;
   border: none;
+}
+@media (max-width: 550px) {
+  .s-4 .container .s-4-div button {
+    font-size: 15px;
+  }
 }
 
 .s-5 {
@@ -966,6 +1056,11 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .s-5 .container .hp h5 {
+    font-size: 35px;
+  }
+}
 .s-5 .container .hp p {
   color: #212529;
   font-size: 25px;
@@ -983,6 +1078,11 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .s-5 .container .hp p {
+    font-size: 20px;
+  }
 }
 .s-5 .container .cardsdiv {
   width: 100%;
@@ -1031,6 +1131,16 @@ footer .f-div4 ul li a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width: 550px) {
+  .s-5 .container .cardsdiv .card1 img,
+  .s-5 .container .cardsdiv .card2 img,
+  .s-5 .container .cardsdiv .card3 img,
+  .s-5 .container .cardsdiv .card4 img,
+  .s-5 .container .cardsdiv .card5 img,
+  .s-5 .container .cardsdiv .card6 img {
+    display: none;
+  }
+}
 .s-5 .container .cardsdiv .card1 h6,
 .s-5 .container .cardsdiv .card2 h6,
 .s-5 .container .cardsdiv .card3 h6,
@@ -1051,6 +1161,16 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .s-5 .container .cardsdiv .card1 h6,
+  .s-5 .container .cardsdiv .card2 h6,
+  .s-5 .container .cardsdiv .card3 h6,
+  .s-5 .container .cardsdiv .card4 h6,
+  .s-5 .container .cardsdiv .card5 h6,
+  .s-5 .container .cardsdiv .card6 h6 {
+    font-size: 25px;
+  }
+}
 .s-5 .container .cardsdiv .card1 p,
 .s-5 .container .cardsdiv .card2 p,
 .s-5 .container .cardsdiv .card3 p,
@@ -1070,6 +1190,16 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .s-5 .container .cardsdiv .card1 p,
+  .s-5 .container .cardsdiv .card2 p,
+  .s-5 .container .cardsdiv .card3 p,
+  .s-5 .container .cardsdiv .card4 p,
+  .s-5 .container .cardsdiv .card5 p,
+  .s-5 .container .cardsdiv .card6 p {
+    font-size: 15px;
+  }
 }
 .s-5 .container .cardsdiv .card1:hover,
 .s-5 .container .cardsdiv .card2:hover,
@@ -1141,6 +1271,11 @@ footer .f-div4 ul li a:hover {
   line-height: 84px; /* 120% */
   align-self: stretch;
   margin-bottom: 60px;
+}
+@media (max-width: 550px) {
+  .s-6 .container h3 {
+    display: none;
+  }
 }
 .s-6 .container .cardwrapper {
   width: 100%;
@@ -1405,6 +1540,16 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .abtus-s-1 .container .infodiv h6 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 380px) {
+  .abtus-s-1 .container .infodiv h6 {
+    font-size: 25px;
+  }
+}
 .abtus-s-1 .container .infodiv p {
   color: #212529;
   font-size: 25px;
@@ -1422,6 +1567,16 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .abtus-s-1 .container .infodiv p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .abtus-s-1 .container .infodiv p {
+    font-size: 15px;
+  }
 }
 .abtus-s-1 .container .cardwrapper {
   width: 100%;
@@ -1467,6 +1622,13 @@ footer .f-div4 ul li a:hover {
 .abtus-s-1 .container .cardwrapper .card3 img {
   width: 300px;
 }
+@media (max-width: 380px) {
+  .abtus-s-1 .container .cardwrapper .card1 img,
+  .abtus-s-1 .container .cardwrapper .card2 img,
+  .abtus-s-1 .container .cardwrapper .card3 img {
+    display: none;
+  }
+}
 .abtus-s-1 .container .cardwrapper .card1 h1,
 .abtus-s-1 .container .cardwrapper .card2 h1,
 .abtus-s-1 .container .cardwrapper .card3 h1 {
@@ -1488,6 +1650,20 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .abtus-s-1 .container .cardwrapper .card1 h1,
+  .abtus-s-1 .container .cardwrapper .card2 h1,
+  .abtus-s-1 .container .cardwrapper .card3 h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 380px) {
+  .abtus-s-1 .container .cardwrapper .card1 h1,
+  .abtus-s-1 .container .cardwrapper .card2 h1,
+  .abtus-s-1 .container .cardwrapper .card3 h1 {
+    font-size: 25px;
+  }
+}
 .abtus-s-1 .container .cardwrapper .card1 p,
 .abtus-s-1 .container .cardwrapper .card2 p,
 .abtus-s-1 .container .cardwrapper .card3 p {
@@ -1506,6 +1682,20 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .abtus-s-1 .container .cardwrapper .card1 p,
+  .abtus-s-1 .container .cardwrapper .card2 p,
+  .abtus-s-1 .container .cardwrapper .card3 p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .abtus-s-1 .container .cardwrapper .card1 p,
+  .abtus-s-1 .container .cardwrapper .card2 p,
+  .abtus-s-1 .container .cardwrapper .card3 p {
+    font-size: 15px;
+  }
 }
 
 .it-s-1 {
@@ -1551,6 +1741,11 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .it-s-1 .container .infodiv h4 {
+    font-size: 35px;
+  }
+}
 .it-s-1 .container .infodiv p {
   color: #212529;
   font-size: 25px;
@@ -1569,6 +1764,11 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .it-s-1 .container .infodiv p {
+    font-size: 20px;
+  }
+}
 .it-s-1 .container .infodiv li {
   color: #212529;
   font-size: 25px;
@@ -1585,6 +1785,11 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .it-s-1 .container .infodiv li {
+    font-size: 20px;
+  }
 }
 
 .cnt-s-1 {
@@ -1614,37 +1819,10 @@ footer .f-div4 ul li a:hover {
   justify-content: space-between;
   border-radius: 10px;
 }
-.cnt-s-1 .container .contacts .contdiv ul .tellli {
-  width: 600px;
-  margin-right: 20px;
-  color: #ffffff;
-  font-size: 25px;
-  line-height: 30px;
-  letter-spacing: -0.36px;
-  margin-bottom: 60px;
-  font-size: 25px;
-}
-@font-face {
-  font-family: "Sylfaen";
-  src: url("Sylfaen.woff2") format("woff2"), url("Sylfaen.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-.cnt-s-1 .container .contacts .contdiv ul .tellli a {
-  color: #ffffff;
-  font-size: 25px;
-  line-height: 30px;
-  letter-spacing: -0.36px;
-  margin-bottom: 60px;
-  font-size: 25px;
-}
-@font-face {
-  font-family: "Sylfaen";
-  src: url("Sylfaen.woff2") format("woff2"), url("Sylfaen.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+@media (max-width: 1550px) {
+  .cnt-s-1 .container .contacts {
+    display: block;
+  }
 }
 .cnt-s-1 .container .contacts .contdiv ul li {
   color: #ffffff;
@@ -1653,6 +1831,7 @@ footer .f-div4 ul li a:hover {
   letter-spacing: -0.36px;
   margin-bottom: 60px;
   font-size: 25px;
+  flex-wrap: wrap;
 }
 @font-face {
   font-family: "Sylfaen";
@@ -1660,6 +1839,11 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  @media (max-width: 550px) {
+    .cnt-s-1 .container .contacts .contdiv ul li {
+      font-size: 20px;
+    }
+  }
 }
 .cnt-s-1 .container .contacts .contdiv ul li a {
   color: #ffffff;
@@ -1674,6 +1858,16 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  @media (max-width: 550px) {
+    .cnt-s-1 .container .contacts .contdiv ul li a {
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 1550px) {
+  .cnt-s-1 .container .contacts .contdiv {
+    text-align: center;
+  }
 }
 .cnt-s-1 .container .contacts .mapdiv {
   width: 50%;
@@ -1681,6 +1875,11 @@ footer .f-div4 ul li a:hover {
 .cnt-s-1 .container .contacts .mapdiv iframe {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 1550px) {
+  .cnt-s-1 .container .contacts .mapdiv {
+    display: none;
+  }
 }
 
 .cnt-s-2 {
@@ -1721,6 +1920,16 @@ footer .f-div4 ul li a:hover {
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 550px) {
+  .cnt-s-2 .container h6 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 360px) {
+  .cnt-s-2 .container h6 {
+    font-size: 30px;
+  }
+}
 .cnt-s-2 .container .reportus {
   width: 100%;
   display: flex;
@@ -1731,8 +1940,31 @@ footer .f-div4 ul li a:hover {
   display: flex;
   justify-content: space-between;
   margin-bottom: 51px;
+  flex-wrap: wrap;
 }
-.cnt-s-2 .container .reportus .form textarea {
+@media (max-width: 1550px) {
+  .cnt-s-2 .container .reportus .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+}
+.cnt-s-2 .container .reportus .form .form-2 {
+  width: 756px;
+  height: 298px;
+}
+@media (max-width: 1325px) {
+  .cnt-s-2 .container .reportus .form .form-2 {
+    width: 60%;
+  }
+}
+@media (max-width: 1550px) {
+  .cnt-s-2 .container .reportus .form .form-2 {
+    width: 100%;
+  }
+}
+.cnt-s-2 .container .reportus .form .form-2 textarea {
   height: 298px;
   width: 100%;
   flex-shrink: 0;
@@ -1741,7 +1973,7 @@ footer .f-div4 ul li a:hover {
   background: #a7cefc;
   padding: 23px 21px;
 }
-.cnt-s-2 .container .reportus .form textarea ::-moz-placeholder {
+.cnt-s-2 .container .reportus .form .form-2 textarea ::-moz-placeholder {
   color: #99999a;
   font-size: 14px;
   font-family: Helvetica;
@@ -1749,7 +1981,7 @@ footer .f-div4 ul li a:hover {
   font-weight: 700;
   line-height: normal;
 }
-.cnt-s-2 .container .reportus .form textarea ::placeholder {
+.cnt-s-2 .container .reportus .form .form-2 textarea ::placeholder {
   color: #99999a;
   font-size: 14px;
   font-family: Helvetica;
@@ -1758,8 +1990,12 @@ footer .f-div4 ul li a:hover {
   line-height: normal;
 }
 .cnt-s-2 .container .reportus .form .form-1 {
-  max-width: 340px;
-  width: 100%;
+  width: 340px;
+}
+@media (max-width: 1550px) {
+  .cnt-s-2 .container .reportus .form .form-1 {
+    width: 100%;
+  }
 }
 .cnt-s-2 .container .reportus .form .form-1 form {
   width: 100%;
@@ -1791,12 +2027,6 @@ footer .f-div4 ul li a:hover {
 .cnt-s-2 .container .reportus .form .form-1 form input[type=submit]:hover {
   background: #a7cefc;
 }
-.cnt-s-2 .container .reportus .form .form-2 {
-  max-width: 756px;
-  width: 100%;
-  max-height: 298px;
-  height: 100%;
-}
 
 .news-s-1 {
   margin-top: 160px;
@@ -1820,6 +2050,16 @@ footer .f-div4 ul li a:hover {
 .news-s-1 .container .newscardwrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1233px) {
+  .news-s-1 .container .newscardwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
 }
 .news-s-1 .container .newscardwrap .newscard1 {
   max-width: 370px;
@@ -1851,4 +2091,9 @@ footer .f-div4 ul li a:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+@media (max-width: 550px) {
+  .news-s-1 .container .newscardwrap .newscard1 p {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=global.css.map */
